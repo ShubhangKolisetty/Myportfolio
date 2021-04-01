@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Averia Serif Libre", cursive;
+}
+
+.nav {
+  margin: 2rem;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.nav__head-list-item:first-child {
+  float: left;
+}
+
+.nav__head-list-item {
+  list-style: none;
+  display: inline;
+  margin: 1rem;
+  float: right;
+}
+
+.nav__head-list-item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
