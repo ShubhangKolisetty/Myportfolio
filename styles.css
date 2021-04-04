@@ -6,13 +6,13 @@
 body {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Kiwi Maru", serif;
 }
 
 .nav {
   font-size: 1rem;
-  padding: 2rem;
-  background-color: #000;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
 }
 
 .nav__head {
@@ -50,7 +50,7 @@ body {
 
 .nav__head-list-item a:link,
 .nav__head-list-item a:visited {
-  color: rgb(0, 132, 255);
+  color: rgb(53, 206, 135);
   text-decoration: none;
 }
 
@@ -58,4 +58,40 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.header {
+  background-image: url(/images/unsplash.jpg);
+  background-size: cover;
+  background-position: 0 20%;
+  text-align: center;
+  padding: 3rem;
+}
+
+.header__dp {
+  width: 12rem;
+  border: solid rgb(44, 68, 42) 0.2rem;
+
+  border-radius: 20%;
+  margin: 0 auto 1rem auto;
+  box-shadow: 2px 2px 5px 5px rgba(51, 78, 49, 0.89);
+  display: block;
+}
+
+.header__name {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: rgba(33, 87, 61, 0.61);
+  padding: 1rem;
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  border-radius: 5%;
+}
+
+.header__city {
+  font-size: 1rem;
+  color: rgb(53, 206, 135);
+  background-color: rgba(8, 8, 8, 0.884);
+  padding: 1rem;
+  border-radius: 5%;
 }
