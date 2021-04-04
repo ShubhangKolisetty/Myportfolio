@@ -7,6 +7,7 @@ body {
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Kiwi Maru", serif;
+  background-color: rgba(36, 68, 36, 0.452);
 }
 
 .nav {
@@ -94,4 +95,46 @@ body {
   background-color: rgba(8, 8, 8, 0.884);
   padding: 1rem;
   border-radius: 5%;
+}
+
+.main {
+  margin-top: 5rem;
+}
+
+.main-div {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main__background {
+  font-size: 1rem;
+  float: left;
+  width: 40%;
+  background-color: rgba(39, 143, 39, 0.295);
+  padding: 2rem;
+}
+
+.main__goals {
+  font-size: 1rem;
+  float: right;
+  width: 40%;
+  background-color: rgba(39, 143, 39, 0.295);
+  padding: 2rem;
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
+
+.resume:link,
+.resume:visited {
+  text-decoration: none;
+  color: rgb(0, 71, 177);
+}
+
+.button {
+  background-color: rgba(164, 182, 63, 0.774);
+  padding: 0.2rem;
+  border-radius: 10%;
+  margin: 1.5px;
 }
