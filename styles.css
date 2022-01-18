@@ -160,7 +160,7 @@ body {
 .fa {
   color: #000;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0.4rem;
   width: 40px;
   text-decoration: none;
@@ -173,5 +173,5 @@ body {
 
 .copyrights {
   display: block;
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
